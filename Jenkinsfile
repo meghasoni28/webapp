@@ -2,18 +2,15 @@ pipeline {
     agent {
    
     }
-    environment {
-        CI = 'true'
-    }
     stages {
         stage('Build') {
             steps {
-               
+               echo "HEllo build"
             }
         }
         stage('Test') {
             steps {
-               
+               echo "hello test"
             }
         }
         stage('Deliver for development') {
@@ -22,7 +19,7 @@ pipeline {
             }
             steps {
               
-                input message: 'Finished using the web site? (Click "Proceed" to continue)'
+                echo "hello deploy"
                
             }
         }
@@ -32,7 +29,7 @@ pipeline {
             }
             steps {
                
-                input message: 'Finished using the web site? (Click "Proceed" to continue)'
+                echo "hello prod"
                
             }
         }
