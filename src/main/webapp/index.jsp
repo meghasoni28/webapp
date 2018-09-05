@@ -62,7 +62,7 @@
     <div class="row">
         <div class="col-md-4">
             <h2>Heading</h2>
-            <p> helloooooooooooooooooooo snehal </p>
+            <p> hellooooooootytyoooooooooooo snehal </p>
             <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
